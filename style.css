@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.91);
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.container{
+    user-select: none;
+}
+
+.container .chronometer {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 8px 8px 20px #fffffff8, -8px -8px 20px #fffffff8;
+}
+
+.container .chronometer span{
+    width: 120px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 80px;
+}
+
+.chronometer .dpoint {
+    width: 10px;
+}
+
+.endDpoint,
+.millisecond {
+    color: rgba(123, 123, 123, 0.912);
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.buttons button {
+    padding: 6px 16px;
+    border: none;
+    margin: 0 20px;
+    border-radius: 30%;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px #fffffff8, -4px -4px 10px #fffffff8;
+}
+
+
